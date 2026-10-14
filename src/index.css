@@ -8,6 +8,17 @@ body {
   font-family: sans-serif;
 }
 
+nav ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #8ab4f8;
+}
+
 table {
   border-collapse: collapse;
 }
@@ -22,14 +33,7 @@ td img {
   width: 160px;
 }
 
-dialog {
-  width: 80vw;
-  background-color: #2a2a2a;
-  color: #e0e0e0;
-  border: 1px solid #444;
-}
-
-dialog img,
-dialog video {
-  width: 100%;
+main img,
+main video {
+  max-width: 100%;
 }
