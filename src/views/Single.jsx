@@ -9,6 +9,7 @@ const Single = () => {
     <>
       <button onClick={() => navigate(-1)}>Go back</button>
       <h3>{item.title}</h3>
+      <p>Uploaded by {item.username}</p>
       {item.media_type.includes('video') ? (
         <video src={item.filename} controls />
       ) : (
