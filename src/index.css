@@ -1,33 +1,35 @@
 :root {
-  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.5;
-  color-scheme: light dark;
+  color-scheme: dark;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
 }
 
 body {
-  margin: 0;
-}
-
-#root {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1rem 2rem;
+  font-family: sans-serif;
 }
 
 table {
-  width: 100%;
   border-collapse: collapse;
 }
 
 th,
 td {
+  border: 1px solid #444;
   padding: 0.5rem;
-  border-bottom: 1px solid #8884;
-  text-align: left;
 }
 
 td img {
-  display: block;
   width: 160px;
-  height: auto;
+}
+
+dialog {
+  width: 80vw;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+dialog img,
+dialog video {
+  width: 100%;
 }
